@@ -17,6 +17,7 @@
 
   --mainFont: "Roboto", sans-serif;
   --logoFont: "Permanent Marker", cursive;
+  --fancyFont: "Marck Script", cursive;
 }
 
 html {
@@ -111,12 +112,12 @@ header {
 main #landing-page h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
-  width: 30%;
+  width: 40%;
 }
 
 #landing-page h3 {
   font-size: 1.5rem;
-  width: 50%;
+  width: 60%;
 }
 
 #steps {
@@ -138,4 +139,9 @@ aside:nth-child(3) {
 
 aside:last-child {
   background-color: var(--pink);
+}
+
+aside i {
+  font-size: 4rem;
+  padding: 3rem;
 }
