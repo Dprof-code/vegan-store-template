@@ -14,12 +14,16 @@
   --dark-grey: #707070;
   --black: #070707;
   --white: #ffffff;
+
+  --mainFont: "Roboto", sans-serif;
+  --logoFont: "Permanent Marker", cursive;
 }
 
 html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--mainFont);
 }
 
 *,
@@ -42,6 +46,7 @@ header {
 
 #logo {
   font-size: 3rem;
+  font-family: var(--logoFont);
 }
 
 #nav-items-con {
