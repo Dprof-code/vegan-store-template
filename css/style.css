@@ -123,6 +123,26 @@ main #landing-page h1 {
 #steps {
   display: flex;
   text-align: center;
+  color: var(--white);
+}
+
+#steps-item {
+  padding: 10rem 4rem;
+}
+
+.fas {
+  font-size: 130px;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.step-txt {
+  padding: 3rem;
+  padding-bottom: 0;
+  font-weight: 300;
 }
 
 aside:first-child {
@@ -139,9 +159,4 @@ aside:nth-child(3) {
 
 aside:last-child {
   background-color: var(--pink);
-}
-
-aside i {
-  font-size: 4rem;
-  padding: 3rem;
 }
