@@ -127,16 +127,16 @@ main #landing-page h1 {
 }
 
 #steps-item {
-  padding: 10rem 4rem;
+  padding: 5rem 2lrem;
 }
 
 .fas {
-  font-size: 130px;
+  font-size: 100px;
   margin-bottom: 3rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .step-txt {
