@@ -160,3 +160,29 @@ aside:nth-child(3) {
 aside:last-child {
   background-color: var(--pink);
 }
+
+#features-con {
+  background-color: var(--bright-red);
+  text-align: center;
+  padding: 2rem;
+}
+
+.fancy {
+  color: var(--fancy);
+  font-family: var(--fancyFont);
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 0.7rem 0;
+}
+
+.caption {
+  color: var(--grey);
+  font-weight: 300;
+}
+
+#features {
+  display: flex;
+}
